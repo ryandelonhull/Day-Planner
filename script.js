@@ -11,13 +11,14 @@ $(document).ready(function () {
     //$("#date-my").text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
     
     let updateDate = function () {
-    let currentDate = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+    let currentDate = moment().format("dddd, MMMM Do YYYY");
     $("#currentDay").text(currentDate);
     // console.log(currentDate);
     }
     let updateTime = function () {
         let currentTime = moment().format('h:mm:ss');
         $("#time").text(currentTime);
+        console.log(currentTime)
     }
     let timeInputBoxes = []
     timeInputBoxes [0] = $("#timeNine");
