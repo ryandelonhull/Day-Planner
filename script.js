@@ -18,7 +18,7 @@ $(document).ready(function () {
     let updateTime = function () {
         let currentTime = moment().format('h:mm:ss');
         $("#time").text(currentTime);
-        console.log(currentTime)
+        
     }
     let timeInputBoxes = []
     timeInputBoxes [0] = $("#timeNine");
